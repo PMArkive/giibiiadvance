@@ -3,7 +3,7 @@ GiiBiiAdvance
 
 Another GB, GBC and GBA cross-platform emulator writen in C. By Antonio Niño
 Díaz (AntonioND). It's licensed under the GPL v2 license. The source code is
-available `in GitHub <https://github.com/AntonioND/giibiiadvance>`_.
+available `in Codeberg <https://codeberg.org/SkyLyrac/giibiiadvance>`_.
 
 This is an emulator I started several years ago. I didn't release any version
 for a few years after 0.1.0. At some point I did some changes that improved
@@ -30,10 +30,10 @@ a better idea than GiiBiiAdvance due to their better support.
 
 However, this is the first emulator that emulated completely the GB Camera (if
 you have a webcam)! :) More information aobut the GB Camera hardware
-`here <https://github.com/AntonioND/gbcam-rev-engineer>`_.
+`here <https://codeberg.org/SkyLyrac/gbcam-rev-engineer>`_.
 
 It's also what I used to implement the PC simulation side of
-`ugba <https://github.com/AntonioND/ugba>`_, my GBA library. For example, all
+`ugba <https://codeberg.org/SkyLyrac/libugba>`_, my GBA library. For example, all
 the video simulation and BIOS services.
 
 My website: www.skylyrac.net
@@ -49,7 +49,7 @@ version 1.6) and zlib.
     sudo apt install cmake libsdl2-dev libpng-dev
 
 If you want to build the emulator with GB Camera support, you need to install
-OpenCV 4 as well. If OpenCV is detected during the build process, it will be
+OpenCV 4 as well. If OpenCV is detected during the build process, it will b
 used. If not, the emulator won't have webcam support.
 
 .. code:: bash
